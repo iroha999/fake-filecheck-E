@@ -40,8 +40,8 @@ pip install requests beautifulsoup4 flask
 
 実行前に`exploit.py`ファイルを開き、お使いの環境に合わせて2つの変数を編集する必要があります。
 
--   `TARGET_URL`: 標的となるMBSDMARKETアプリケーションのURLに書き換えてください。（例: `http://192.168.178.128`）
--   `FAKE_INSPECTOR_URL`: `fake_inspector.py`を起動するマシンのIPアドレスに書き換えてください。MBSDMARKETのコンテナからアクセスできる必要があります。
+-   `TARGET_URL`: 標的となるアプリケーションのURLに書き換えてください。（例: `http://192.168.178.128`）
+-   `FAKE_INSPECTOR_URL`: `fake_inspector.py`を起動するマシンのIPアドレスに書き換えてください。コンテナからアクセスできる必要があります。
 -   `LOGIN_ID` と `LOGIN_PW`: 有効なユーザーアカウントの認証情報に書き換えてください。
 
 ### 3. エクスプロイトの実行
